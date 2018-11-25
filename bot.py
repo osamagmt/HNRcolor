@@ -1,6 +1,6 @@
 ##REPLACE THESE VALUES
 bot_key="PlAcEhOlDeR"
-default_role="DRB"
+default_role="乙ϗ乃"
 ##--------------------
 import discord
 import asyncio
