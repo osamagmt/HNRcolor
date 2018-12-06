@@ -15,7 +15,7 @@ dothething = {}
 
 @client.event
 async def on_ready():
-	return await client.change_presence(game=discord.Game(name='DRB')) 
+	return await client.change_presence(game=discord.Game(name='XZ')) 
 
 @client.event
 async def on_message(message):
