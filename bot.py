@@ -28,10 +28,10 @@ async def on_message(message):
                         dothething[str(message.server.id)]=0
                 except:
                         print("err")
-        if message.content.startswith("+start"):
-                await client.send_message(message.channel, "` started`:rainbow:")
+        if message.content.startswith("☆شغل"):
+                await client.send_message(message.channel, "` ثم تشغيل`:rainbow:")
                 hue=0
-                if message.content.strip().startswith("+start "):
+                if message.content.strip().startswith("☆شغل "):
                         role = discord.utils.find(lambda m: m.name == message.content[6:].strip() ,message.server.roles)
                 else:
                         role = discord.utils.find(lambda m: m.name == default_role ,message.server.roles)
