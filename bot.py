@@ -1,6 +1,6 @@
 ##REPLACE THESE VALUES
 bot_key="PlAcEhOlDeR"
-default_role="「 ✗ℤ  ꪠꫛꫝ」"
+default_role="HNR"
 ##--------------------
 import discord
 import asyncio
@@ -15,7 +15,7 @@ dothething = {}
 
 @client.event
 async def on_ready():
-	return await client.change_presence(game=discord.Game(name='XZ')) 
+	return await client.change_presence(game=discord.Game(name='HNR Bot')) 
 
 @client.event
 async def on_message(message):
